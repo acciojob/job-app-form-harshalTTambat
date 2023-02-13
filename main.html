@@ -8,6 +8,60 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="./form.html" method="get">
+        <div>
+           <label for="#name"> Name*</label>
+           <input type="text" placeholder="Entre Name" id="#name" name="name" required>
+        </div>
+        <div>
+            <label for="#password">Password*</label>
+            <input type="password" placeholder="Entre password" id="#password" name="pass" required>
+        </div>
+        <div>
+            <label for="#email">Email*</label>
+            <input type="email" placeholder="Entre Email" id="#email" name="email" required>
+        </div>
+        <div>   
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="m">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="f">
+
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="oth">
+
+        </div>
+        <div>
+            Laptop Brands:
+            <div>
+                <label for="#laptop">Apple</label>
+                <input type="checkbox" id="#laptop" name="apple" >
+            </div>
+            <div>
+                <label for="#laptop">Asus</label>
+                <input type="checkbox" id="#laptop" name="asus">
+            </div>
+            <div>
+                <label for="#laptop">HP</label>
+                <input type="checkbox" id="#laptop" name="hp">
+            </div>        
+        </div>
+        <div>
+            <label for="#age">Age*</label>
+            <input type="number" id="#age" name="age" min="1" max="200" step="1" required >
+        </div>
+        <div>
+            <label for="#dob">DOB*</label>
+            <input type="date" id="#dob" name="dateofbirth" required >
+        </div>
+        <div>
+            <label for="#portfolio"> Portfolio </label>
+           <input type="url" placeholder="Entre portfolio Link" id="#portfolio" name="url">
+        </div>
+        
+        <input type="submit" value="Submit">
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
